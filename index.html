@@ -8,9 +8,8 @@
 </head>
 <body>
     <h1>To-Do List</h1>
-  <input type="text" id="new-item" placeholder="Enter new item">
+  <input type="text" id="new-item" oninput="restrictNumbers(this)" placeholder="Enter new item">
   <button id="add-item">Add Item</button>
-  <button id="sort-item">Sort Alphabetically</button>
   <ul id="todo-list"></ul>
 
   <script src="./script/code.js"></script>

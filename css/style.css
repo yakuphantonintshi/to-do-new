@@ -24,15 +24,15 @@
   }
   
   ul li:hover {
-    background: #ddd;
+    background: rgb(95, 164, 95);
   }
   
-  ul li.checked {
+  /* ul li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
   }
-  
+
   ul li.checked::before {
     content: '';
     position: absolute;
@@ -43,4 +43,29 @@
     left: 16px;
     transform: rotate(45deg);
     height: 15px;
-  }
+  } */
+ #new-item{
+  width: 30rem;
+  height: 3rem;
+  margin-block-start: 4rem;
+ }
+ #add-item{
+  width: 10rem;
+  height: 3rem;
+  margin-left: 2rem;
+  cursor: pointer;
+ }
+ #todo-list{
+  margin-block: 1rem;
+ }
+ .delete-button{
+  width: 7rem;
+  height: 3rem;
+  margin-inline-start: 1.5rem;
+  background-color: green;
+  cursor: pointer;
+ }
+ .delete-button:hover{
+  color: black;
+  background: white;
+ }

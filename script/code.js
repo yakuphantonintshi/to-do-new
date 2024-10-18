@@ -16,6 +16,10 @@ document.getElementById('sort-item').addEventListener('click', () => {
   displayList();
 });
 
+function restrictNumbers(input) {
+  input.value = input.value.replace(/[^A-Za-z]/g, '');
+}
+
 function displayList() {
   let listElement = document.getElementById('todo-list');
   listElement.innerHTML = '';
